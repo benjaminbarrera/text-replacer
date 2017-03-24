@@ -87,7 +87,7 @@ class Link
         return $html_link;
     }
 
-    public function link_content($content, $keyword, $url_slug)
+    public function linkContent($content, $keyword, $url_slug)
     {
         $this->removeTitles($content);
 
